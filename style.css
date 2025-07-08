@@ -1,0 +1,17 @@
+/* Estilo para los iconos de los enlaces inactivos */
+a i {
+    color: gray;  /* Color para enlaces inactivos */
+}
+
+/* Estilo para los iconos de los enlaces activos */
+a.active i {
+    color: blue;  /* Color para enlaces activos */
+}
+
+.img-custom {
+    object-fit: cover; 
+    width: 100%; 
+    height: auto; /* Deja que la altura se ajuste proporcionalmente */
+    aspect-ratio: 1; /* Hace que la relación de aspecto sea 1:1 (cuadrada) */
+}
+
