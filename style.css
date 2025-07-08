@@ -15,3 +15,135 @@ a.active i {
     aspect-ratio: 1; /* Hace que la relación de aspecto sea 1:1 (cuadrada) */
 }
 
+
+/*-------------*/
+.post{
+    border: 0.5px solid gray;
+    background-color: white;
+    width: 325px;
+    height: 100%;
+}
+
+/*HEADER*/
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.perfil .info {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.perfil .name {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.name #name {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+    color: #000000;
+}
+
+.perfil .name i {
+    margin-left: 5px; 
+    font-size: 14px ;
+    color: blue;
+}
+
+.perfil #ubication {
+    font-size: 10px;
+    margin: 0;
+    color: #555;
+}
+
+.post-header i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #222;
+}
+
+
+/*POST IMG*/
+.post-img {
+    position: relative;
+    width: 100%;  
+    height: 400px;  
+    overflow: hidden; 
+    margin-top: 5px;
+}
+
+.post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+/*ICONOS*/
+.post-icons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 5px;
+    margin-right: 5px;
+}
+
+.post-icons i{
+    color: #000000;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.icons-left span{
+    margin: 3px; 
+    font-size: 13px;
+}
+
+/*LIKED*/
+.liked{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.liked img {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 6px;
+    margin-right: 4px;
+}
+
+.liked p{
+    margin: 0px;
+    font-size: 13px;
+}
+.description p{
+    margin: 3px;
+    font-size: 13px;
+}
+.mas, .publicado{
+    color: #555;
+}
